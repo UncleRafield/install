@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Instagram</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>My Instagram</h1>
+    </header>
+    
+    <section id="post-form">
+      <h2>Create a Post</h2>
+      <form id="uploadForm">
+        <input type="text" id="caption" placeholder="Enter caption..." required>
+        <input type="file" id="imageUpload" accept="image/*" required>
+        <button type="submit">Post</button>
+      </form>
+    </section>
+    
+    <section id="feed">
+      <h2>Feed</h2>
+      <div id="posts-container"></div>
+    </section>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
